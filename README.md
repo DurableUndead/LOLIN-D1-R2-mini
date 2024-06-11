@@ -54,3 +54,45 @@
 - Login to Web:
   - Username: admin
   - Password: admin
+
+
+---
+
+# Complete Installation Guide for Arduino with ESP8266
+
+## Installation Steps
+
+## Ensure Arduino is Installed
+
+1. **Open Preferences**  
+   Add the following URL to the "Additional Boards Manager URLs" section and click OK:
+   ```
+   http://arduino.esp8266.com/stable/package_esp8266com_index.json
+   ```
+
+2. **Install ESP8266 in Boards Manager**  
+   Wait for the download to complete.
+
+3. **Select Board and Port**  
+   - Open "Select Other Board and Port..."
+   - Choose the board "NodeMCU 1.0 ESP-12E Module"
+   - Select the port "COM Serial Port (USB)"  
+     Note: If the port does not appear, try changing the data cable.
+
+4. **Verify Code**  
+   - Click the Verify button (checkmark icon) and wait for the verification process to complete.
+
+5. **Open Serial Monitor**  
+   - Open Serial Monitor from the Tools tab.
+
+6. **Download CH340 Driver**  
+   - Download and install the CH340 driver if needed.
+
+7. **Select Other Board (Optional)**  
+   - Choose the board "Lolin (Wemos) D1 R2 & Mini" or "NodeMCU 1.0 ESP-12E Module" in "Select Other Board and Port..."
+   - Wait for the indexing process to complete (around 0/85).
+
+Additional reference:  
+[Arduino LittleFS Upload](https://github.com/earlephilhower/arduino-littlefs-upload)
+
+---
